@@ -45,7 +45,6 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -54,7 +53,6 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -72,9 +70,6 @@
 - [![Typescript][Typescript]][Typescript-url]
 - [![Prisma][Prisma.io]][Prisma-url]
 - [![Jest][Jest]][Jest-url]
-- [![Laravel][Laravel.com]][Laravel-url]
-- [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-- [![JQuery][JQuery.com]][JQuery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,16 +145,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [@DShulyachenko](https://twitter.com/DShulyachenko) - dmitry.shulyachenko@gmail.com
 
 Project Link: [https://github.com/di-shu/realtor-app](https://github.com/di-shu/realtor-app)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
-
-## Acknowledgments
-
-- []()
-- []()
-- []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
