@@ -13,7 +13,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="./src/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Realtor App</h3>
@@ -109,7 +109,7 @@
 
 ## Roadmap
 
-- [+] Set up Home module
+- [ ] Set up Home module
 - [ ] Set up User module
   - [ ] Set up Auth service
 - [ ] Achieve a coverage with tests 80%+
@@ -175,7 +175,7 @@ Project Link: [https://github.com/di-shu/realtor-app](https://github.com/di-shu/
 [license-url]: https://github.com/di-shu/realtor-app/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/dmytro-shulyachenko-872195189/
-[product-screenshot]: images/app-screen.png
+[product-screenshot]: ./src/images/app-screen.png
 [Nest.js]: https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white
 [Nest-url]: https://nestjs.com/
 [Prisma.io]: https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white
