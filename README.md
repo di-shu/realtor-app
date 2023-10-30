@@ -97,6 +97,7 @@
    ```sh
    yarn start:dev
    ```
+5. Use Postman to test endpoints
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
