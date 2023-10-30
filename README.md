@@ -77,7 +77,7 @@
 
 ## Getting Started
 
-### Installation
+### Installation and Running
 
 1. Clone the repo
    ```sh
@@ -98,6 +98,20 @@
    yarn start:dev
    ```
 5. Use Postman to test endpoints
+
+### Docs
+
+1. Swagger
+
+```sh
+To see Swagger docs open `http://localhost:3000/api`
+```
+
+2. API diagrams
+
+```sh
+You can find and investigate api diagrams in "diagrams" folder of module folder
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
