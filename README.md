@@ -99,7 +99,7 @@
    ```
 5. Use Postman to test endpoints
 
-### Compiles and minifies for production
+### Generates build for production
 
 ```
 yarn build
