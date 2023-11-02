@@ -13,10 +13,14 @@ import {
 } from 'class-validator';
 
 export class HomeResponseDto {
+  @ApiProperty()
   id: number;
+  @ApiProperty()
   address: string;
+  @ApiProperty()
   image: string;
 
+  @ApiProperty()
   @Exclude()
   num_of_bedrooms: number;
   @Expose({ name: 'numberOfBedrooms' })
@@ -24,6 +28,7 @@ export class HomeResponseDto {
     return this.num_of_bedrooms;
   }
 
+  @ApiProperty()
   @Exclude()
   num_of_bathrooms: number;
   @Expose({ name: 'numberOfBathrooms' })
@@ -31,6 +36,7 @@ export class HomeResponseDto {
     return this.num_of_bathrooms;
   }
 
+  @ApiProperty()
   city: string;
 
   @Exclude()
@@ -40,6 +46,7 @@ export class HomeResponseDto {
     return this.listed_date;
   }
 
+  @ApiProperty()
   price: number;
 
   @Exclude()

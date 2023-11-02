@@ -57,7 +57,7 @@ export class AuthController {
     return this.authService.signin(body);
   }
 
-  @Roles(UserType.ADMIN)
+  //@Roles(UserType.ADMIN)
   @Post('/key')
   @ApiBody({ type: GenerateProductKeyDto })
   @ApiOperation({ description: 'Generate a product key' })

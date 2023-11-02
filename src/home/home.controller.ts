@@ -33,7 +33,11 @@ export class HomeController {
   @ApiQuery({ name: 'maxPrice', type: String, required: false })
   @ApiQuery({ name: 'propertyType', type: String, required: false })
   @ApiOperation({ description: 'Return homes with applied filters' })
-  @ApiResponse({ status: 200, description: 'Homes are found' })
+  @ApiResponse({
+    status: 200,
+    description: 'Homes are found',
+    type: HomeResponseDto,
+  })
   async getHomes(
     @Query('city') city?: string,
     @Query('minPrice') minPrice?: string,

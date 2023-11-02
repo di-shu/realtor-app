@@ -93,11 +93,41 @@
     JWT_TOKEN_KEY="JWT_TOKEN_KEY"
     PRODUCT_KEY_SECRET="PRODUCT_KEY_SECRET"
    ```
-4. Run the project
+4. Run the project with hot-reloads
    ```sh
    yarn start:dev
    ```
 5. Use Postman to test endpoints
+
+### Compiles and minifies for production
+
+```
+yarn build
+```
+
+### Runs unit tests in a console
+
+```
+yarn test
+```
+
+### Runs unit tests with hot-reloads
+
+```
+yarn test:watch
+```
+
+### Runs unit tests in a console with coverage collection
+
+```
+yarn test:cov
+```
+
+### Runs e2e tests
+
+```
+yarn test:e2e
+```
 
 ### Docs
 
