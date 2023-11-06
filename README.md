@@ -77,6 +77,24 @@
 
 ## Getting Started
 
+### Setting up Postgress
+
+1. Download Postgress on your device
+
+```
+https://www.postgresql.org/download/
+```
+
+2. Enter your DATABASE_URL in `.env`
+   `Example:`
+
+```
+DATABASE_URL="postgresql://postgres:1111@localhost:5432/postgres"
+```
+
+3. Run Postgress on your device
+4. Run the project following instructions below
+
 ### Installation and Running
 
 1. Clone the repo
@@ -87,9 +105,8 @@
    ```sh
    yarn
    ```
-3. Enter your DATABASE_URL, JWT_TOKEN_KEY, PRODUCT_KEY_SECRET in `.env`
+3. Enter your JWT_TOKEN_KEY, PRODUCT_KEY_SECRET in `.env`
    ```json
-    DATABASE_URL="postgresql://postgres:1111@localhost:5432/postgres"
     JWT_TOKEN_KEY="JWT_TOKEN_KEY"
     PRODUCT_KEY_SECRET="PRODUCT_KEY_SECRET"
    ```
@@ -134,7 +151,7 @@ yarn test:e2e
 1. Swagger
 
 ```sh
-To see Swagger docs open `http://localhost:3000/api`
+To see Swagger docs open `http://localhost:3000/docs` when project is running
 ```
 
 2. API diagrams
